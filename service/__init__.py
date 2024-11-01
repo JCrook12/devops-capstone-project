@@ -16,7 +16,7 @@ app = Flask(__name__)
 app.config.from_object(config)
 
 # Added Talisman Code
-talisman=Talisman(app)
+talisman = Talisman(app)
 CORS(app)
 
 # Import the routes After the Flask app is created
